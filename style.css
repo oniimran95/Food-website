@@ -151,3 +151,45 @@ button {
     max-width: 50%;
     padding: 30px;
 }
+.pricing_menu {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.pricing_menu .pricing {
+    max-width: 334px;
+    width: 412px;
+    text-align: center;
+    background: #F2F2F2;
+}
+.priceing-top {
+    background: #608b14;
+    padding: 50px;
+    overflow: hidden;
+}
+.pricing h2 {
+    color: #fff;
+    font-size: 26px;
+}
+.pricing h1 {
+    color: #fff;
+    font-size: 54px;
+    overflow: hidden;
+}
+.written {
+    width: 334px;
+    padding: 45px;
+}
+.written p {
+    padding-top: 20px;
+}
+.pricing .pricing_new {
+    position: relative;
+    margin-top: -15px;
+    margin-left: 167px;
+    width: 147px;
+    background: #3d5f00;
+    transform: rotate(45deg);
+    color: #fff;
+}
