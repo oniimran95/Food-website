@@ -21,10 +21,30 @@ button {
     font-size: 13px;
     border-radius: 20px 0px 20px 0px;
 }
+button:hover {
+    background: #2a3e03;
+    cursor: pointer;
+}
 .header {
     width: 100%;
     padding: 35px 10px;
     background: rgb(3, 98, 3);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header i {
+    color: #fff;
+    margin-left: 50px;
+}
+.header_site {
+    display: flex;
+}
+.header h3 {
+    color: #fff;
+}
+.header i {
+    color: #fff;
 }
 .header h1 {
     color: #fff;
@@ -85,6 +105,63 @@ button {
     font-weight: 400;
     font-size: 18px;
 }
+.about_new {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+}
+.about_left {
+    padding: 40px;
+    max-width: 550px;
+}
+.about_left h2 {
+    font-size: 40px;
+    margin-bottom: 50px;
+}
+.about_right {
+    position: relative;
+}
+.about_right:before {
+    content: "";
+    position: absolute;
+    left: 0; right: 0;
+    top: 0; bottom: 0;
+    background: rgba(61,95,0,.4);
+}
+.section_border {
+    width: 150px;
+    position: absolute;
+    top: -15px;
+    height: 150px;
+    left: -15px;
+    border-left: 5px solid green;
+    border-top: 5px solid green;
+}
+.about_right i {
+    position: absolute;
+    color: red;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 80px;
+}
+.about_top {
+    margin-left: 25%;
+}
+.about_top h2 {
+    font-size: 40px;
+    margin-bottom: 60px;
+}
+.about_new1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 150px;
+}
 .about {
     width: 100%;
     padding: 100px;
@@ -113,10 +190,11 @@ button {
     font-weight: 700;
 }
 .service {
-    width: 100%;
     display: flex;
     padding: 20px 40px;
     justify-content: space-between;
+    width: 90%;
+    margin: 0 auto;
 }
 
 .service .service_menu {
@@ -271,22 +349,55 @@ button {
 }
 .futter img {
     position: relative;
-    margin-left: 50%;
-    
+    margin-left: 47%;
 }
 .futter h1 {
     color: #fff;
     text-align: center;
+    font-size: 70px;
 }
 .futter h3 {
     color: #fff;
     text-align: center;
+    font-size: 30px;
 }
-.futter i {
+.futter ul {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.futter ul li {
+    list-style: none;
+}
+.futter ul li i {
     color: black;
     background: #fff;
     width: 26px;
-    padding: 5px 7px;
+    padding: 5px 6px;
     border: 1px solid #fff;
     border-radius: 79px;
+    margin-left: 10px;
+    margin-top: 33px;
+}
+.futter h2 {
+    color: #fff;
+    margin-top: 40px;
+    text-align: center;
+    font-size: 36px;
+}
+.futter .img_site1 {
+    position: absolute;
+    margin-top: -20px;
+    margin-left: 75%;
+}
+.img_site1 img {
+    max-width: 55px;
+}
+.futter .img_site2 {
+    position: absolute;
+    margin-left: 10%;
+}
+.img_site2 img {
+    max-width: 55px;
 }
